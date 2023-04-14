@@ -1,0 +1,46 @@
+.container_coffe{
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around ;
+    
+}
+
+.coffe_d > img{
+    width: 150px;
+    height: 150px;
+}
+
+.Coffe_p{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.cofe{
+    display: flex;
+}
+
+.cofe_two{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: white;
+}
+.cofe_two>p{
+    color: #E4B95B;
+
+}
+
+.line{
+    width: 300px;
+    color: white;
+    display: flex;
+}
+
+.img_diskovery>img{
+    width: 100px;
+}
+

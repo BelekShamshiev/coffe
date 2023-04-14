@@ -1,0 +1,76 @@
+.container {
+  max-width: 1600px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.build_title > h1 {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 62px;
+  display: flex;
+  justify-content: center;
+  color: #e4b95b;
+}
+.build_title > p {
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+}
+.swiper{
+  margin-top: 70px;
+  width: 100%;
+  height: 300px;
+}
+
+.swiper_img{
+  width: 270px;
+}
+
+
+@media (max-width: 1024px) {
+  .swiper_img{
+    width: 200px;
+  }
+}
+@media (max-width:768px){
+  .swiper{
+    height: 225px;
+  }
+  .swiper_img{
+    width: 200px;
+  }
+}
+
+@media (max-width:425px){
+  .swiper{
+    height: 200px ;
+  }
+  .swiper_img{
+    width: 150px;
+  }
+  .build_title>h1{ 
+    font-size:28px ;
+  }
+}
+@media (max-width:320px) {
+  .container{
+    width: 320px;
+    height: 200px;
+  }
+  .swiper{
+    height: 200px;
+  }
+  .swiper_img{
+    width: 130px;
+    height: 130px;
+  }
+  .build_title >h1{
+    font-size: 25px;
+  }
+  
+}
